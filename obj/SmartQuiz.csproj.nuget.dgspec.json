@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kawda\\source\\repos\\SmartQuiz\\SmartQuiz.csproj": {}
+    "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kawda\\source\\repos\\SmartQuiz\\SmartQuiz.csproj": {
+    "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kawda\\source\\repos\\SmartQuiz\\SmartQuiz.csproj",
+        "projectUniqueName": "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj",
         "projectName": "SmartQuiz",
-        "projectPath": "C:\\Users\\kawda\\source\\repos\\SmartQuiz\\SmartQuiz.csproj",
-        "packagesPath": "C:\\Users\\kawda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kawda\\source\\repos\\SmartQuiz\\obj\\",
+        "projectPath": "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj",
+        "packagesPath": "C:\\Users\\Art\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Art\\Desktop\\project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kawda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Art\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net7.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

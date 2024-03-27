@@ -26,5 +26,15 @@ namespace SmartQuiz
         {
 
         }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void end_test_button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

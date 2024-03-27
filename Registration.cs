@@ -17,6 +17,7 @@ namespace SmartQuiz
             InitializeComponent();
         }
 
+
         private void Registration_Load(object sender, EventArgs e)
         {
 
@@ -25,6 +26,17 @@ namespace SmartQuiz
         private void Registration_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void registration_label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirmRegisterBut_Click(object sender, EventArgs e)
+        {
+            Program.registerForm.Hide();
+            Program.userTestForm.Show();
         }
     }
 }
