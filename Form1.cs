@@ -28,13 +28,12 @@ namespace SmartQuiz
             if (Program.authForm.currLogin().Text == "admin" && Program.authForm.currPassword().Text == "admin")
             {
                 Program.authForm.Hide();
-                Program.questionsDesignerForm.Show();
+                Program.teacherMenu.Show();
                 return;
             }
 
             Program.authForm.Hide();
-            Program.userTestForm.Show();
-
+            Program.userTestsMenu.Show();
         }
     }
 }

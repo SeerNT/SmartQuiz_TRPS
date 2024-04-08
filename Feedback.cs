@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace SmartQuiz
 {
-    public partial class QuestionEditor : Form
+    public partial class Feedback : Form
     {
-        public QuestionEditor()
+        public Feedback()
         {
             InitializeComponent();
         }
 
-        private void accept_question_button_Click(object sender, EventArgs e)
+        private void sendFeedbackButton_Click(object sender, EventArgs e)
         {
-            Program.questionEditor.Hide(); 
-            Program.questionsDesignerForm.Show();
+            Program.feedbackTeacher.Hide();
+            Program.teacherTestResults.Show();
         }
     }
 }

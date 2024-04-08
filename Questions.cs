@@ -39,7 +39,14 @@ namespace SmartQuiz
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Program.questionsDesignerForm.Hide();
+            Program.questionEditor.Show();
+        }
 
+        private void acceptButton_Click(object sender, EventArgs e)
+        {
+            Program.questionsDesignerForm.Hide();
+            Program.teacherMenu.Show();
         }
     }
 }

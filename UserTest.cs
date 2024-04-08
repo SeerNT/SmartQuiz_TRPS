@@ -34,7 +34,13 @@ namespace SmartQuiz
 
         private void end_test_button_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Program.userTestForm.Hide();
+            Program.userTestsMenu.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

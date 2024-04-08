@@ -41,5 +41,11 @@ namespace SmartQuiz
         {
 
         }
+
+        private void accept_button_Click(object sender, EventArgs e)
+        {
+            Program.teacherNewTestForm.Hide();
+            Program.questionsDesignerForm.Show();
+        }
     }
 }

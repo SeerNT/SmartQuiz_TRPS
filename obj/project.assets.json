@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Art\\.nuget\\packages\\": {}
+    "C:\\Users\\kawda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj",
+      "projectUniqueName": "C:\\Users\\kawda\\Desktop\\SmartQuiz_TRPS-main\\SmartQuiz.csproj",
       "projectName": "SmartQuiz",
-      "projectPath": "C:\\Users\\Art\\Desktop\\project\\SmartQuiz.csproj",
-      "packagesPath": "C:\\Users\\Art\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Art\\Desktop\\project\\obj\\",
+      "projectPath": "C:\\Users\\kawda\\Desktop\\SmartQuiz_TRPS-main\\SmartQuiz.csproj",
+      "packagesPath": "C:\\Users\\kawda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kawda\\Desktop\\SmartQuiz_TRPS-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Art\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kawda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,6 +56,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -64,7 +82,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

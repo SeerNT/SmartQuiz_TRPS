@@ -12,10 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Art\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Art\\.nuget\\packages"
+      "C:\\Users\\kawda\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kawda\\.nuget\\packages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
